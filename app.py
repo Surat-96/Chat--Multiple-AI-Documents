@@ -57,7 +57,7 @@ with st.sidebar:
     if st.button("Documents Embedding"):
         with st.spinner("Processing..."):
             vector_embedding()
-            st.write("Vector Store DB Is Ready")
+            st.write("Vector Store DB Is ready")
 
 
 footer = """
